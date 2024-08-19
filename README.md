@@ -170,4 +170,27 @@ git remote add origin https://github.com/farolfa/Git-e-Github-aprendendo-sobre-r
 git branch -M main
 git push -u origin main
 
-![teste](a3ve7-ljn8p.png)
+# irmão e se eu te falasse que da para fazer o porcesso do readme pelo proprio github voce acreditaria???
+
+talvez...
+
+seguinte my truta dá sim , porém voce me pergunta: como?
+
+e eu lhe respondo: apenas clique no . (ponto) 
+
+ponto?????
+
+sim mano ponto o do teclado, ponto final, in inglish dot 
+
+faça o seguinte:
+
+na sua interface do github aperte o botão ponto 
+
+![imagem github](image.png)
+.
+
+e então voce abrira essa interface
+
+![git developer image](image-1.png)
+
+boiah facin  facim!
