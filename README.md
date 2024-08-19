@@ -132,11 +132,42 @@ AAAAA MANO O QUE CADA UM FAZ????? calma padauan vou falar
 
 ## **SOFT**
 
+o soft faz o seguinte meu parça ele pega um commit que vc escolhe e faz com que junte ele aos commits posteriores exemplo: commit1,commit2,commit3 escrevo o hash do 2 e apago o 3 colocando (là ele) tudo no 2 
+## 
+ficou confuso? fod... carma ai meu truta é o seguinte 
+temos os dois commits tu pega um antigo e el sobrepoe o novo sacou tomalhe imagem(codigo exemplo do soft reset )
+
+ |git reset --soft eeab9a69dac456a4fa02c4ced499ea13a5ba817e|
+|:- |
 
 
 
+## **MIXED**
+o mixed nada mais e do que o reset (BRUH!!!) zoeira, Imagine que você está trabalhando em um projeto e já salvou algumas versões do seu trabalho(muito trampo), mas percebe que cometeu um erro na última versão salva (o último commit no Git). Agora, você quer voltar a uma versão anterior para corrigir o erro.
+
+O comando git reset --mixed é como uma "borracha" que apaga a última versão salva (o último commit) da sua lista de versões, mas não apaga o trabalho que você fez. Ele simplesmente diz: "Vamos voltar a um ponto anterior e deixar as mudanças no rascunho para que eu possa revisá-las".
+
+Então, se você usar , 
+ |git reset --mixed eeab9a69dac456a4fa02c4ced499ea13a5ba817e|
+|:- |
+é como dizer ao Git:
 
 
+Volte para uma versão anterior: Ele volta para a versão anterior (ou para outra que você escolher).
+Mantenha minhas mudanças em rascunho: As mudanças que você fez, mas ainda não salvou oficialmente (commit), permanecem visíveis, prontas para você revisar ou corrigir.
+Mas o mais importante é que nada é apagado. Seus arquivos ainda estão lá, apenas não estão mais prontos para serem salvos (commitados) até que você faça as correções necessárias.
+ 
+ ## **HARD** 
+ o hard não tem segredo ele apaga tudo que tenha nos arquivos superiores ficando apenas dele para tras
 
+ comando:
 
  
+ |git reset --hard eeab9a69dac456a4fa02c4ced499ea13a5ba817e|
+|:- |
+
+git remote add origin https://github.com/farolfa/Git-e-Github-aprendendo-sobre-repositorios-locais-e-remotos.git
+git branch -M main
+git push -u origin main
+
+![teste](a3ve7-ljn8p.png)
