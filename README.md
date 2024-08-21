@@ -8,6 +8,8 @@ nesse artigo estarei falando o basico sobre criar um arquivo git e como salvar l
 precisamos de uma base para nos guiarmos
 sendo ele o [Enviando e Baixando Alterações com o Repositório Remoto](https://www.youtube.com/watch?v=bEW2VH3or1I&t=3s) e tambem o [Salvando Alterações no Repositório Local](https://www.youtube.com/watch?v=CfXZr-goMJQ) do Canal/Empresa - DIO 
 
+tambem estarei deixando o link do MoisesTedeschi que contem uma [Lista dos principais comandos do Git](https://gist.github.com/MoisesTedeschi/96a5cba54c83fd59013f96015ce6ef7b) caso tenha duvida de algum comando sempre bom olhar ele.
+
 ## ok... tudo começa assim :
 para o começo de tudo precisamos criar um Repositório 
 e ele sera o lugar onde guyardaremos nossos arquivos ... ou seja para fazermos isso precisamos ir para uma pasta (qualquer uma),acessar com o botão direito sem ser em um arquivo e clicar em : 
@@ -199,3 +201,76 @@ boiah facin  facim!
 
 
 [def]: image-3.png
+
+## Trabalhando com Branches
+
+o que seria? simples imagine que estamos criando um novo commit, porem em um caso especifico de querermos testar algo sem mudar um commit vamos criar uma ramificação da mesma 
+
+![ramificação de branches](image-9.png)
+
+(ignore a cabeça de nós todos na direita)
+
+ao cria uma ramificação podemos fazer com que sua commit principal não seja alterada e podendo testar coisas novas em uma commit teste por exemplo.
+
+![o que são branches](image-10.png)
+
+ok ok vamos para os codes (codigos) 
+
+## criando uma branch
+
+primeiro de o comando 
+|git checkout -b teste|
+|-----:|
+
+**ATENÇÃO**
+
+Esse comando é equivalente a dois comandos separados:
+
+Criar a branch:
+|git branch teste|
+|-----:|
+
+
+Mudar para a branch recém-criada:
+|git checkout teste|
+|-----:|
+
+Ao usar git checkout -b, você economiza tempo ao combinar esses dois passos em um único comando.
+
+apos criar um arquivo echo e criar um novo commit ele ficará assim 
+
+![alt text](image-11.png)
+
+uma pro branch teste e outro main, ao tentar trocar usando o comando git checkout (nome branch) ele criara a ramificação de arquivos
+
+dicks **(DICA)** : ao usar o comando git branch -v ele mostrará todas as ramificaçoes e onde esta cada uma delas
+
+![alt text](image-12.png)
+
+no caso o ultimo commit de cada uma delas
+
+para mostrar todas as branches é só usar o comando
+
+|git branch|
+|-----:|
+
+## como mesclar as branchs?
+
+use o comando:
+
+|git merge (nome da branch)|
+|-----:|
+
+## como apagar as branches?
+
+use o comando:
+
+|git branch -d (nome da branch que quer deletar)|
+|-----:|
+
+# acabou... 😭😭😭
+![alt text](image-13.png)
+
+tudo que é bom dura pouco 
+
+ass: **Sun Tzu** a arte da guerra 
